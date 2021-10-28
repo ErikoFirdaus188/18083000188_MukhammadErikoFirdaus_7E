@@ -46,8 +46,8 @@
                 echo "<td>".$siswa["Jurusan"]."</td>";
                 
                 echo "<td>";
-                echo "<a href='edit.php?id=".$siswa['id']."'>Edit</a> | ";
-                echo "<a href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
+                echo "<a class='btn btn-info'href='edit.php?id=".$siswa['id']."'>Edit</a> | ";
+                echo "<a class='btn btn-danger' href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
                 echo "</td>";
                 echo "</tr>";
             

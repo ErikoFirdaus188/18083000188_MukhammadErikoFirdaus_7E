@@ -12,6 +12,8 @@
 </head>
 <body>
 
+
+
 <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <a class="pure-menu-heading" href="">Your Site</a>
@@ -48,7 +50,7 @@
 
                 <h3 class="content-subhead">
                     <i class="fa fa-rocket"></i>
-                    Get Started Quickly
+                    Melihat Data Mahasiswa
                 </h3>
                 <p>
                 <a href = "list.php" type="submit" class="pure-button"  name="list.php">Masuk daftar list</a>
@@ -85,11 +87,11 @@
                     <fieldset>
                     <p>
                         <label for="nama">Nama: </label>
-                        <input type="text" name="Nama" placeholder="Isikan Nama Lengkap" />
+                        <input type="text" name="Nama" placeholder="Isikan Nama Lengkap" Required />
                     </p>
                     <p>
                         <label for="alamat">Jurusan: </label>
-                        <input type="text" name="Jurusan" placeholder="Isikan Jurusan" />
+                        <input type="text" name="Jurusan" placeholder="Isikan Jurusan" Required/>
                     </p>
                     <p>
                         <button type="submit" class="pure-button" value="Daftar" name="daftar">Daftar</button>

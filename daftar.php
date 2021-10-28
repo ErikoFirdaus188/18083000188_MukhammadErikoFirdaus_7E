@@ -19,14 +19,14 @@
     <form action="pendaftaran.php" method="POST">
   <div class="mb-3">
     <label class="form-label">Nama</label>
-    <input type="text" name ='Nama' class="form-control">
+    <input type="text" name ='Nama' class="form-control" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Jurusan</label>
-    <input type="text" name='Jurusan'class="form-control">
+    <input type="text" name='Jurusan'class="form-control" Required>
   </div>
 <button type="submit" value="Daftar" name="daftar" class="btn btn-primary">Daftar</button>
-<a href="Home.php" class="btn btn-danger"><span><i class="bi bi-backspace"></i></span> Kembali </a>
+<a href="list.php" class="btn btn-danger"><span><i class="bi bi-backspace"></i></span> Kembali </a>
 </form>
     </div>
   </body>
