@@ -28,7 +28,7 @@
 
 <div class="splash-container">
     <div class="splash">
-        <h1 class="splash-head">Data Mahasiswa</h1>
+        <h1 class="splash-head">Internet Publisher</h1>
         <p class="splash-subhead">
             Universitas Merdeka 
         </p>
@@ -53,11 +53,11 @@
                     Melihat Data Mahasiswa
                 </h3>
                 <p>
-                <a href = "list.php" type="submit" class="pure-button"  name="list.php">Masuk daftar list</a>
+                <a href = "list.php" type="submit" class="pure-button"  name="list.php" style="text-decoration: none;">Masuk daftar list</a>
                 </p>
 
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    Kumpulan Data Mahasiswa ( Nama,Nim, Jurusan, Jenis Kelamiin, dan Alamat )
                 </p>
                 
     </div>
@@ -68,10 +68,12 @@
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
-            <h2 class="content-head content-head-ribbon">List Data Mahasiswa</h2>
+            <h2 class="content-head content-head-ribbon">Ulangan Tengah Semester</h2>
 
             <p>
-                Tugas Internet Publisher kali ini membuat Data List Mahasiswa.
+                Saya Mukhammad Eriko Firdaus (1808300188) Kelas 7E, sedang mengikuti Ulangan T
+                engah Semester Internet Publisher kali ini membuat Halaman Utama,Halaman Login dan register.
+                Halaman administrator,Halaman CRUD.
                 Mahasiswa mampu membuat Data list menggunakan Mysql.
                 Software yang saya gunakan adalah Visual Studio Code.
             </p>
@@ -79,7 +81,7 @@
     </div>
 
     <div class="content">
-        <h2 class="content-head is-center">Pendaftaran Data Mahasiswa</h2>
+        <h2 class="content-head is-center">Login</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
