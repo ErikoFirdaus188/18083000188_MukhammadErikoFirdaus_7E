@@ -75,7 +75,6 @@ if( mysqli_num_rows($query) < 1 ){
             <input type="text" name ='alamat' placeholder="Masukkan nim" value="<?php echo $siswa['alamat'] ?>"
             class="form-control" Required/> 
     </div> 
-   
         
             <button type="submit" value="Simpan" Nama="simpan" class="btn btn-primary">Simpan </button>
             
@@ -83,7 +82,6 @@ if( mysqli_num_rows($query) < 1 ){
 </fieldset>  
 </div> 
     </div>
-</div>
-   
+</div>  
 </body>
 </html>
