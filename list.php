@@ -13,7 +13,7 @@
     <title>Data Mahasiswa</title>
 </head>
 <body style="background-image:url(https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);background-repeat:no-repeat;background-size:cover">
-<div class="container my-3">
+<div class="container my-4">
 <div class="card">
     <div class="card-body">
     <br>
@@ -21,11 +21,9 @@
     <header>
         <h3 class = "text-center my-2" >Mahasiswa yang sudah mendaftar</h3>
     </header>
-    
         <a href="daftar.php" class="btn btn-success" ><span><i class="bi bi-plus-circle"></i></span> Tambah Baru</a>
     <br>
         <a href="Home.php" class="my-1 btn btn-danger"><span><i class="bi bi-backspace"></i></span> Kembali </a>
-        
     <thead>
             <tr>
                 <th>No</th>

@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 
-    <title>Sign in</title>
+    <title>Sign up</title>
 </head>
 <body>
 	
@@ -86,16 +86,16 @@ if (isset($_POST['submit'])) {
 						Account Register
 					</span>
 					
-					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
-						<input id="first-name" class="input100" autocomplete="off" type="text" name="email" value="<?php echo $email; ?>"  placeholder="User name" required>
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type username">
+						<input id="first-name" class="input100" autocomplete="off" type="text" name="username" value="<?php echo $username; ?>"  placeholder="User name" required>
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type password">
+					<div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type email">
 						<input class="input100" type="email" autocomplete="off" name="email" value="<?php echo $email; ?>"  placeholder="Email" required>
 						<span class="focus-input100"></span>
 					</div>
 
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type password">
 						<input id="first-name" class="input100" type="password" autocomplete="off"name="password" value="<?php echo $_POST['password']; ?>" placeholder="Password" required>
 						<span class="focus-input100"></span>
 					</div>
